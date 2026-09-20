@@ -49,9 +49,9 @@ export default function Home() {
 
       <header className="site-header">
         <div className="container header-inner">
-          <a href="#top" className="brand" aria-label="Dijital Yaş Doğrulama ana sayfa">
+          <a href="#top" className="brand" aria-label="everydaysworks neumedialab.org ana sayfa">
             <span className="brand-mark"><span>↗</span></span>
-            <span><strong>NET / HAK</strong><small>kaynaklı açıklama</small></span>
+            <span><strong>everydaysworks</strong><small>neumedialab.org · kaynaklı açıklama</small></span>
           </a>
           <button className="mobile-menu" aria-label="Menüyü aç" onClick={() => setMenuOpen(!menuOpen)}>
             {menuOpen ? <X size={21} /> : <Menu size={21} />}
