@@ -224,6 +224,9 @@ export default defineConfig({
     port: 3000,
     strictPort: false, // Will find next available port if 3000 is busy
     host: true,
+    // The managed preview URL serves HTTP successfully but does not proxy Vite's HMR WebSocket.
+    // Disable HMR to prevent the browser console from reporting a false connection error.
+    hmr: false,
     allowedHosts: [
       ".manuspre.computer",
       ".manus.computer",
