@@ -5,6 +5,7 @@ import {
   ChevronRight,
   CircleAlert,
   Clock3,
+  Copy,
   ExternalLink,
   FileText,
   KeyRound,
@@ -33,6 +34,30 @@ function SourceLink({ href, children }: { href: string; children: React.ReactNod
 
 function SectionLabel({ children }: { children: React.ReactNode }) {
   return <div className="section-label">{children}</div>;
+}
+
+function ShareBar({ title }: { title: string }) {
+  const pageUrl = typeof window === "undefined" ? "https://everydaysworks-blog.pages.dev/" : window.location.href;
+  const url = encodeURIComponent(pageUrl);
+  const text = encodeURIComponent(title);
+  const links = [
+    { label: "Facebook", glyph: "f", href: `https://www.facebook.com/sharer/sharer.php?u=${url}` },
+    { label: "Instagram", glyph: "◎", href: `https://www.instagram.com/?url=${url}` },
+    { label: "X", glyph: "𝕏", href: `https://twitter.com/intent/tweet?text=${text}&url=${url}` },
+    { label: "Mastodon", glyph: "m", href: `https://mastodon.social/share?text=${text}%20${url}` },
+    { label: "LinkedIn", glyph: "in", href: `https://www.linkedin.com/sharing/share-offsite/?url=${url}` },
+    { label: "WhatsApp", glyph: "↗", href: `https://wa.me/?text=${text}%20${url}` },
+  ];
+  const copyLink = async () => {
+    try { await navigator.clipboard.writeText(pageUrl); } catch { /* clipboard may be unavailable */ }
+  };
+  return <div className="share-bar" aria-label="Bu yayını paylaş">
+    <span className="share-label">PAYLAŞ</span>
+    <div className="share-buttons">
+      {links.map((item) => <a className="share-button" key={item.label} href={item.href} target="_blank" rel="noreferrer" aria-label={`${item.label} üzerinde paylaş`} title={`${item.label} üzerinde paylaş`}><span>{item.glyph}</span></a>)}
+      <button className="share-button" type="button" onClick={copyLink} aria-label="Bağlantıyı kopyala" title="Bağlantıyı kopyala"><Copy size={15} /></button>
+    </div>
+  </div>;
 }
 
 export default function Home() {
@@ -177,6 +202,7 @@ export default function Home() {
             <p>Elif Eralp’in kampanyasının merkezinde yüksek kiralar, barınma ve sosyal adalet vardı. Die Linke kira artışlarını sınırlama, kiracıları koruma ve büyük konut stoklarının kamusallaştırılması gibi hedefler savundu. Bunlar seçim vaatleri; uygulanmış politika değil.</p>
             <p>Berlin’de AfD’nin oyu da arttı. Ancak mevcut geçici tabloda AfD birinci parti değil ve diğer büyük partiler AfD ile koalisyona sıcak bakmıyor. Bu nedenle haberin en dikkatli özeti şu: <strong>Die Linke kazandı; Eralp’in hükümet kurup kuramayacağı ise şimdi koalisyon görüşmelerinde belirlenecek.</strong></p>
             <div className="quote-panel"><span className="quote-mark">“</span><p>Benim kişisel değerlendirmem: Eralp’i yakından tanımıyorum; ancak kampanya öncesi röportajlarında hazırlıklı, hukuki meselelerin farkında ve göçmenlerin temsilini önemseyen bir aday görüntüsü verdiğine inanıyorum.</p><small>Editoryal görüş · haber olgusundan ayrı tutulmuştur</small></div>
+            <ShareBar title="Berlin’den gelen yanıt: Die Linke birinci, Elif Eralp için şimdi koalisyon sınavı" />
             <div className="source-grid">
               <a className="source-card" href="https://www.dw.com/tr/berlinde-bir-ilke-do%C4%9Fru-sol-partili-elif-eralp-kimdir/a-79331267" target="_blank" rel="noreferrer"><span className="source-type">HABER</span><h3>DW Türkçe</h3><p>Eralp’in biyografisi, konut politikası ve koalisyon belirsizliği.</p><ArrowUpRight size={17} /></a>
               <a className="source-card" href="https://www.reuters.com/world/far-left-party-wins-berlin-election-pledging-nationalise-housing-2026-09-20/" target="_blank" rel="noreferrer"><span className="source-type">ULUSLARARASI</span><h3>Reuters</h3><p>Seçim oranları, konutların kamusallaştırılması ve koalisyon engelleri.</p><ArrowUpRight size={17} /></a>
@@ -202,7 +228,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="site-footer"><div className="container footer-inner"><div className="brand footer-brand"><span className="brand-mark"><span>↗</span></span><span><strong>NET / HAK</strong><small>kaynaklı açıklama</small></span></div><p>Bu dosya, dijital haklar ve internet özgürlüğü üzerine kaynaklı bir okuma notudur.</p><span className="footer-date">20.09.2026</span></div></footer>
+      <footer className="site-footer"><div className="container footer-inner"><div className="brand footer-brand"><span className="brand-mark"><span>↗</span></span><span><strong>everydaysworks</strong><small>neumedialab.org · kaynaklı açıklama</small></span></div><div className="footer-share"><ShareBar title="everydaysworks · kaynaklı yayınlar" /><p>Yayınları beğendiyseniz paylaşarak bağımsız üretimi destekleyebilirsiniz.</p></div><span className="footer-date">20–21.09.2026</span></div></footer>
     </div>
   );
 }
