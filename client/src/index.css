@@ -126,6 +126,15 @@ blockquote cite { display: block; color: #6f817c; font-family: 'DM Sans', sans-s
 .quote-mark { position: absolute; top: 20px; left: 26px; color: var(--coral); font: 60px Georgia, serif; line-height: 1; }
 .quote-panel p { position: relative; margin: 14px 0 20px 38px; max-width: 640px; color: #ecf2ef; font: 25px/1.35 Georgia, serif; }
 .quote-panel small { margin-left: 38px; color: #9eb7b1; font-size: 10px; letter-spacing: .14em; text-transform: uppercase; }
+.victory-quote { margin: 30px 0 28px; }
+.publication-figure { margin: 0 0 34px; }
+.publication-figure img { display: block; width: 100%; max-height: 520px; object-fit: cover; }
+.publication-figure figcaption { padding: 10px 0 0; color: #7a8d86; font-size: 10px; line-height: 1.5; }
+.publication-figure figcaption a { color: #477d74; text-decoration: underline; text-underline-offset: 2px; }
+.embedded-video { margin: 34px 0 42px; background: var(--ink-deep); padding: 16px; }
+.embedded-video-head { display: flex; align-items: center; justify-content: space-between; gap: 15px; margin-bottom: 12px; color: #b8d0c9; font-size: 9px; font-weight: 900; letter-spacing: .14em; }
+.embedded-video-head a { display: inline-flex; align-items: center; gap: 5px; color: var(--coral); letter-spacing: 0; text-transform: none; }
+.embedded-video iframe { display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; }
 .rights-grid { display: grid; grid-template-columns: 1fr 235px; gap: 38px; margin-top: 18px; }
 .rights-grid h2 { font-size: 34px; }
 .rights-grid p { font-size: 14px; }
@@ -192,3 +201,8 @@ blockquote cite { display: block; color: #6f817c; font-family: 'DM Sans', sans-s
 
 @media (max-width: 960px) { .container { padding-left: 24px; padding-right: 24px; } .hero-grid { gap: 35px; grid-template-columns: minmax(0,1fr) 200px; } .content-layout { grid-template-columns: minmax(0, 1fr) 260px; gap: 45px; } .source-grid { grid-template-columns: repeat(2,1fr); } }
 @media (max-width: 740px) { .topline-note, .header-cta { display: none; } .header-inner { min-height: 66px; justify-content: space-between; } .mobile-menu { display: block; } .main-nav { display: none; position: absolute; top: 66px; left: 0; right: 0; padding: 15px 24px 22px; background: var(--cream); border-bottom: 1px solid var(--line); flex-direction: column; gap: 18px; margin: 0; } .main-nav.open { display: flex; } .hero { min-height: auto; } .hero-grid { display: block; padding-top: 78px; padding-bottom: 62px; } .hero h1 { font-size: clamp(47px, 14vw, 72px); } .hero-dek { font-size: 16px; } .hero-side-note { display: none; } .hero-meta { margin-top: 36px; gap: 14px; } .signal-grid { grid-template-columns: 1fr; gap: 20px; } .signal-item { border-left: 0; border-top: 1px solid #cfdad5; padding: 17px 0 0; } .content-layout { display: block; padding-top: 68px; padding-bottom: 80px; } .side-column { margin-top: 60px; } .side-sticky { position: static; } .article-column h2 { font-size: 37px; } .article-column .lead { font-size: 18px; } .law-points, .compare-block, .split-visual, .rights-grid { grid-template-columns: 1fr; } .split-visual { gap: 20px; } .visual-image, .rights-image { min-height: 220px; order: -1; } .compare-block { gap: 12px; margin-bottom: 80px; } .quote-panel { padding: 30px 23px 28px; } .quote-panel p { margin-left: 18px; font-size: 22px; } .quote-panel small { margin-left: 18px; } .blog-heading { display: block; } .blog-heading span { display: block; padding-bottom: 18px; } .source-section { padding-top: 65px; } .source-heading { display: block; } .source-heading h2 { font-size: 35px; margin-bottom: 20px; } .source-heading p { margin-bottom: 30px; } .source-grid { grid-template-columns: 1fr; } .share-bar { align-items: flex-start; flex-direction: column; gap: 9px; } .footer-inner { padding-top: 25px; padding-bottom: 25px; flex-wrap: wrap; } .footer-share { order: 3; width: 100%; align-items: flex-start; } .footer-inner p { width: 100%; margin: 0; } }
+
+@media (max-width: 740px) {
+  .embedded-video { margin-left: -1px; margin-right: -1px; padding: 12px; }
+  .embedded-video-head { align-items: flex-start; flex-direction: column; gap: 8px; }
+}

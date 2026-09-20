@@ -23,6 +23,7 @@ const VIDEO_URL = "/media/dijital-yas-dogrulama-aciklama.mp4";
 const HERO_IMAGE = "/media/hero.jpg";
 const TOKEN_IMAGE = "/media/token-network.jpg";
 const RIGHTS_IMAGE = "/media/rights-path.jpg";
+const ELIF_IMAGE = "/media/elif-eralp-victory.jpg";
 
 function SourceLink({ href, children }: { href: string; children: React.ReactNode }) {
   return (
@@ -204,6 +205,9 @@ export default function Home() {
             <SectionLabel>02 / BERLİN</SectionLabel>
             <h2>Berlin’den gelen yanıt: Die Linke birinci, Elif Eralp için şimdi koalisyon sınavı</h2>
             <p className="lead">20 Eylül 2026 Berlin Eyalet Meclisi seçiminde Die Linke, resmi portalın geçici sonuçlarında yüzde 25,7 ile birinci sırada. Türkiye kökenli aday Elif Eralp’in Berlin’in Yönetici Belediye Başkanı olup olmayacağı ise henüz kesinleşmiş değil.</p>
+            <div className="quote-panel victory-quote"><span className="quote-mark">“</span><p>Bugünden itibaren Berlin’i birlikte değiştireceğiz ve daha iyi bir yer haline getireceğiz.</p><small>Elif Eralp · seçim gecesi zafer konuşması · DW aktarımı</small></div>
+            <figure className="publication-figure"><img src={ELIF_IMAGE} alt="Elif Eralp seçim gecesi Die Linke destekçilerine hitap ederken" /><figcaption>Elif Eralp, Berlin seçiminde Die Linke’nin birinci çıkmasının ardından seçim gecesi konuşurken. Fotoğraf: Axel Schmidt / REUTERS · <a href="https://www.reuters.com/world/far-left-party-wins-berlin-election-pledging-nationalise-housing-2026-09-20/" target="_blank" rel="noreferrer">Reuters haberine git</a></figcaption></figure>
+            <div className="embedded-video"><div className="embedded-video-head"><span>DW NEWS · İZLE</span><a href="https://www.dw.com/en/germany-elections-berlin-mecklenburg-vorpommern-mecklenburg-western-pomerania/live-79322092" target="_blank" rel="noreferrer">Orijinal DW sayfası <ArrowUpRight size={14} /></a></div><iframe src="https://www.youtube.com/embed/UlCKl-PNoNU" title="DW News: Berlin ve Mecklenburg-Vorpommern seçimleri" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen /></div>
             <div className="law-card">
               <div className="law-card-head"><span className="law-icon"><Check size={19} /></span><div><b>Kesin sonuç ile makamı ayır</b><small>21 Eylül 2026 · resmi geçici sonuç</small></div><span className="verified"><Check size={14} /> doğrulandı</span></div>
               <div className="law-points"><div><strong>Die Linke</strong><span>İkinci oy: %25,7 · 465.949 oy.</span></div><div><strong>AfD</strong><span>İkinci oy: %16,2 · 2023’e göre belirgin artış.</span></div><div><strong>Henüz kesin değil</strong><span>Eralp’in Yönetici Belediye Başkanı olup olmayacağı koalisyon ve meclis oylamasına bağlı.</span></div></div>
@@ -211,7 +215,8 @@ export default function Home() {
             </div>
             <p>Berlin hem eyalet hem şehir statüsünde. Bu nedenle halkın seçtiği Eyalet Meclisi, hükümet kurulduktan sonra Yönetici Belediye Başkanı’nı seçiyor. Die Linke’nin birinci çıkması güçlü bir siyasi mandat; fakat tek başına çoğunluk anlamına gelmiyor.</p>
             <p>Elif Eralp’in kampanyasının merkezinde yüksek kiralar, barınma ve sosyal adalet vardı. Die Linke kira artışlarını sınırlama, kiracıları koruma ve büyük konut stoklarının kamusallaştırılması gibi hedefler savundu. Bunlar seçim vaatleri; uygulanmış politika değil.</p>
-            <p>Berlin’de AfD’nin oyu da arttı. Ancak mevcut geçici tabloda AfD birinci parti değil ve diğer büyük partiler AfD ile koalisyona sıcak bakmıyor. Bu nedenle haberin en dikkatli özeti şu: <strong>Die Linke kazandı; Eralp’in hükümet kurup kuramayacağı ise şimdi koalisyon görüşmelerinde belirlenecek.</strong></p>
+            <p>Berlin’de AfD’nin oyu da arttı. Ancak mevcut geçici tabloda AfD birinci parti değil ve diğer büyük partiler AfD ile koalisyona sıcak bakmıyor. Bu nedenle bu sonuç, yalnızca bir parti değişimi değil; Trumpizmle, teknoloji sermayesinin aşırı sağa verdiği görünür destekle ve göçmen karşıtı siyasal dalgayla kuşatılan bir dönemde, Berlin’den gelen önemli bir demokratik yanıt olarak da okunabilir. Bu son cümle haber olgusu değil, bu yayının editoryal yorumudur.</p>
+            <p>Elon Musk gibi teknoloji sermayesinin güçlü aktörlerinin Donald Trump çizgisini ve Avrupa’daki aşırı sağ hareketleri büyüten iletişim ağlarını desteklediği bir atmosferde, göçmen kökenli bir hukukçunun barınma, eşitlik ve toplumsal katılım başlıklarıyla başkentin en güçlü siyasi adayına dönüşmesi, bu karşılaşmanın sembolik ağırlığını artırıyor. Yine de sembolik zaferi hükümet kurulmuş gibi sunmamak gerekir: <strong>Die Linke kazandı; Eralp’in hükümet kurup kuramayacağı şimdi koalisyon görüşmelerinde belirlenecek.</strong></p>
             <div className="quote-panel"><span className="quote-mark">“</span><p>Benim kişisel değerlendirmem: Eralp’i yakından tanımıyorum; ancak kampanya öncesi röportajlarında hazırlıklı, hukuki meselelerin farkında ve göçmenlerin temsilini önemseyen bir aday görüntüsü verdiğine inanıyorum.</p><small>Editoryal görüş · haber olgusundan ayrı tutulmuştur</small></div>
             <ShareBar title="Berlin’den gelen yanıt: Die Linke birinci, Elif Eralp için şimdi koalisyon sınavı" />
             <div className="source-grid">
