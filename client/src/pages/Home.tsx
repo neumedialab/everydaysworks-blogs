@@ -37,8 +37,8 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
   return <div className="section-label">{children}</div>;
 }
 
-function ShareBar({ title }: { title: string }) {
-  const pageUrl = typeof window === "undefined" ? "https://everydaysworks-blog.pages.dev/" : window.location.href;
+function ShareBar({ title, shareUrl }: { title: string; shareUrl?: string }) {
+  const pageUrl = shareUrl ?? (typeof window === "undefined" ? "https://everydaysworks-blog.pages.dev/" : window.location.href);
   const url = encodeURIComponent(pageUrl);
   const text = encodeURIComponent(title);
   const links = [
@@ -218,7 +218,7 @@ export default function Home() {
             <p>Berlin’de AfD’nin oyu da arttı. Ancak mevcut geçici tabloda AfD birinci parti değil ve diğer büyük partiler AfD ile koalisyona sıcak bakmıyor. Bu nedenle bu sonuç, yalnızca bir parti değişimi değil; Trumpizmle, teknoloji sermayesinin aşırı sağa verdiği görünür destekle ve göçmen karşıtı siyasal dalgayla kuşatılan bir dönemde, Berlin’den gelen önemli bir demokratik yanıt olarak da okunabilir. Bu son cümle haber olgusu değil, bu yayının editoryal yorumudur.</p>
             <p>Elon Musk gibi teknoloji sermayesinin güçlü aktörlerinin Donald Trump çizgisini ve Avrupa’daki aşırı sağ hareketleri büyüten iletişim ağlarını desteklediği bir atmosferde, göçmen kökenli bir hukukçunun barınma, eşitlik ve toplumsal katılım başlıklarıyla başkentin en güçlü siyasi adayına dönüşmesi, bu karşılaşmanın sembolik ağırlığını artırıyor. Yine de sembolik zaferi hükümet kurulmuş gibi sunmamak gerekir: <strong>Die Linke kazandı; Eralp’in hükümet kurup kuramayacağı şimdi koalisyon görüşmelerinde belirlenecek.</strong></p>
             <div className="quote-panel"><span className="quote-mark">“</span><p>Benim kişisel değerlendirmem: Eralp’i yakından tanımıyorum; ancak kampanya öncesi röportajlarında hazırlıklı, hukuki meselelerin farkında ve göçmenlerin temsilini önemseyen bir aday görüntüsü verdiğine inanıyorum.</p><small>Editoryal görüş · haber olgusundan ayrı tutulmuştur</small></div>
-            <ShareBar title="Berlin’den gelen yanıt: Die Linke birinci, Elif Eralp için şimdi koalisyon sınavı" />
+            <ShareBar title="Berlin’den gelen yanıt: Die Linke birinci, Elif Eralp için şimdi koalisyon sınavı" shareUrl="https://everydaysworks-blog.pages.dev/blog/21.09.2026-berlin-elif-eralp/" />
             <div className="source-grid">
               <a className="source-card" href="https://www.dw.com/tr/berlinde-bir-ilke-do%C4%9Fru-sol-partili-elif-eralp-kimdir/a-79331267" target="_blank" rel="noreferrer"><span className="source-type">HABER</span><h3>DW Türkçe</h3><p>Eralp’in biyografisi, konut politikası ve koalisyon belirsizliği.</p><ArrowUpRight size={17} /></a>
               <a className="source-card" href="https://www.reuters.com/world/far-left-party-wins-berlin-election-pledging-nationalise-housing-2026-09-20/" target="_blank" rel="noreferrer"><span className="source-type">ULUSLARARASI</span><h3>Reuters</h3><p>Seçim oranları, konutların kamusallaştırılması ve koalisyon engelleri.</p><ArrowUpRight size={17} /></a>
