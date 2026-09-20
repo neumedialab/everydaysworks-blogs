@@ -18,10 +18,10 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 
-const VIDEO_URL = "/manus-storage/dijital-yas-dogrulama-aciklama_64198213.mp4";
-const HERO_IMAGE = "/manus-storage/hero_286c367f.jpg";
-const TOKEN_IMAGE = "/manus-storage/token-network_54063c37.jpg";
-const RIGHTS_IMAGE = "/manus-storage/rights-path_60c1af1d.jpg";
+const VIDEO_URL = "/media/dijital-yas-dogrulama-aciklama.mp4";
+const HERO_IMAGE = "/media/hero.jpg";
+const TOKEN_IMAGE = "/media/token-network.jpg";
+const RIGHTS_IMAGE = "/media/rights-path.jpg";
 
 function SourceLink({ href, children }: { href: string; children: React.ReactNode }) {
   return (
