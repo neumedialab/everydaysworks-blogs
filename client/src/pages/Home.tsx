@@ -60,6 +60,7 @@ export default function Home() {
             <a href="#dosya" onClick={() => setMenuOpen(false)}>Dosya</a>
             <a href="#video" onClick={() => setMenuOpen(false)}>Video</a>
             <a href="#blog" onClick={() => setMenuOpen(false)}>Blog</a>
+            <a href="#berlin" onClick={() => setMenuOpen(false)}>Berlin</a>
             <a href="#kaynaklar" onClick={() => setMenuOpen(false)}>Kaynaklar</a>
           </nav>
           <a className="header-cta" href="#ayrim">Önce ayrımı gör <ChevronRight size={15} /></a>
@@ -160,6 +161,30 @@ export default function Home() {
               <div className="side-card action-card"><KeyRound size={21} /><h3>Bir sonraki belgeyi takip et</h3><p>Yönetmelik ve teknik yaş doğrulama tedbirleri yayımlandığında dosya güncellenecek.</p><a href="#kaynaklar">Kaynakları gör <ArrowUpRight size={15} /></a></div>
             </div>
           </aside>
+        </section>
+
+        <section className="container content-layout" id="berlin">
+          <article className="article-column">
+            <SectionLabel>02 / BERLİN</SectionLabel>
+            <h2>Berlin’den gelen yanıt: Die Linke birinci, Elif Eralp için şimdi koalisyon sınavı</h2>
+            <p className="lead">20 Eylül 2026 Berlin Eyalet Meclisi seçiminde Die Linke, resmi portalın geçici sonuçlarında yüzde 25,7 ile birinci sırada. Türkiye kökenli aday Elif Eralp’in Berlin’in Yönetici Belediye Başkanı olup olmayacağı ise henüz kesinleşmiş değil.</p>
+            <div className="law-card">
+              <div className="law-card-head"><span className="law-icon"><Check size={19} /></span><div><b>Kesin sonuç ile makamı ayır</b><small>21 Eylül 2026 · resmi geçici sonuç</small></div><span className="verified"><Check size={14} /> doğrulandı</span></div>
+              <div className="law-points"><div><strong>Die Linke</strong><span>İkinci oy: %25,7 · 465.949 oy.</span></div><div><strong>AfD</strong><span>İkinci oy: %16,2 · 2023’e göre belirgin artış.</span></div><div><strong>Henüz kesin değil</strong><span>Eralp’in Yönetici Belediye Başkanı olup olmayacağı koalisyon ve meclis oylamasına bağlı.</span></div></div>
+              <SourceLink href="https://www.wahlen-berlin.de/wahlen/BE2026/Afspraes/AGH/ergebnisse.html">Berlin resmi sonuç portalını aç</SourceLink>
+            </div>
+            <p>Berlin hem eyalet hem şehir statüsünde. Bu nedenle halkın seçtiği Eyalet Meclisi, hükümet kurulduktan sonra Yönetici Belediye Başkanı’nı seçiyor. Die Linke’nin birinci çıkması güçlü bir siyasi mandat; fakat tek başına çoğunluk anlamına gelmiyor.</p>
+            <p>Elif Eralp’in kampanyasının merkezinde yüksek kiralar, barınma ve sosyal adalet vardı. Die Linke kira artışlarını sınırlama, kiracıları koruma ve büyük konut stoklarının kamusallaştırılması gibi hedefler savundu. Bunlar seçim vaatleri; uygulanmış politika değil.</p>
+            <p>Berlin’de AfD’nin oyu da arttı. Ancak mevcut geçici tabloda AfD birinci parti değil ve diğer büyük partiler AfD ile koalisyona sıcak bakmıyor. Bu nedenle haberin en dikkatli özeti şu: <strong>Die Linke kazandı; Eralp’in hükümet kurup kuramayacağı ise şimdi koalisyon görüşmelerinde belirlenecek.</strong></p>
+            <div className="quote-panel"><span className="quote-mark">“</span><p>Benim kişisel değerlendirmem: Eralp’i yakından tanımıyorum; ancak kampanya öncesi röportajlarında hazırlıklı, hukuki meselelerin farkında ve göçmenlerin temsilini önemseyen bir aday görüntüsü verdiğine inanıyorum.</p><small>Editoryal görüş · haber olgusundan ayrı tutulmuştur</small></div>
+            <div className="source-grid">
+              <a className="source-card" href="https://www.dw.com/tr/berlinde-bir-ilke-do%C4%9Fru-sol-partili-elif-eralp-kimdir/a-79331267" target="_blank" rel="noreferrer"><span className="source-type">HABER</span><h3>DW Türkçe</h3><p>Eralp’in biyografisi, konut politikası ve koalisyon belirsizliği.</p><ArrowUpRight size={17} /></a>
+              <a className="source-card" href="https://www.reuters.com/world/far-left-party-wins-berlin-election-pledging-nationalise-housing-2026-09-20/" target="_blank" rel="noreferrer"><span className="source-type">ULUSLARARASI</span><h3>Reuters</h3><p>Seçim oranları, konutların kamusallaştırılması ve koalisyon engelleri.</p><ArrowUpRight size={17} /></a>
+              <a className="source-card" href="https://www.euronews.com/my-europe/2026/09/19/tense-berlin-election-finale-who-is-to-emerge-strongest-in-the-capital" target="_blank" rel="noreferrer"><span className="source-type">ANALİZ</span><h3>Euronews</h3><p>Anketler, parti pozisyonları ve olası koalisyon aritmetiği.</p><ArrowUpRight size={17} /></a>
+              <a className="source-card" href="https://www.youtube.com/watch?v=ZJfyL_N-ees" target="_blank" rel="noreferrer"><span className="source-type">VİDEO</span><h3>Seçim gecesi</h3><p>Die Linke destekçilerinin Berlin’deki kutlamaları ve Eralp’in konuşması.</p><ArrowUpRight size={17} /></a>
+            </div>
+          </article>
+          <aside className="side-column"><div className="side-sticky"><div className="side-card action-card"><Sparkles size={21} /><h3>Bu haber güncellenecek</h3><p>Kesin sonuçlar ve koalisyon anlaşması açıklandığında Berlin dosyası yeniden düzenlenecek.</p><a href="https://www.wahlen-berlin.de/wahlen/BE2026/Afspraes/AGH/gewaehlte.html" target="_blank" rel="noreferrer">Seçilenler sayfasını izle <ArrowUpRight size={15} /></a></div><div className="side-card index-card"><div className="side-card-top"><span>İKİNCİ YAYIN</span><span>04</span></div><a href="#berlin"><span>01</span> Geçici sonuç ne diyor? <ChevronRight size={15} /></a><a href="#berlin"><span>02</span> Eralp kimdir? <ChevronRight size={15} /></a><a href="#berlin"><span>03</span> AfD ve koalisyon <ChevronRight size={15} /></a><a href="#berlin"><span>04</span> Türkiye için anlamı <ChevronRight size={15} /></a></div></div></aside>
         </section>
 
         <section className="source-section" id="kaynaklar">
