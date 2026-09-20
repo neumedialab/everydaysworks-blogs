@@ -17,7 +17,7 @@ import {
   Sparkles,
   X,
 } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const VIDEO_URL = "/media/dijital-yas-dogrulama-aciklama.mp4";
 const HERO_IMAGE = "/media/hero.jpg";
@@ -62,6 +62,13 @@ function ShareBar({ title }: { title: string }) {
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    const hash = window.location.hash.replace("#", "");
+    if (!hash) return;
+    const timer = window.setTimeout(() => document.getElementById(hash)?.scrollIntoView({ behavior: "smooth", block: "start" }), 80);
+    return () => window.clearTimeout(timer);
+  }, []);
 
   return (
     <div className="site-shell">
