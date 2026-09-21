@@ -224,7 +224,7 @@ export default function Home() {
         <section className="container content-layout" id="berlin">
           <article className="article-column">
             <SectionLabel>02 / BERLİN</SectionLabel>
-            <div className="language-inline"><span>Bu yayını kendi dilinizde okuyun:</span><LanguageSwitcher current={language} /></div>
+            <div className="language-inline"><span>Read this publication in your language · Bu yayını kendi dilinizde okuyun:</span><LanguageSwitcher current={language} /></div>
             <h2>{berlin.title}</h2>
             <p className="lead">{berlin.lead}</p>
             <div className="victory-intro"><p>{berlin.intro}</p><small>Elif Eralp · {language === "tr" ? "seçim gecesi zafer konuşması" : language === "de" ? "Siegesrede am Wahlabend" : language === "fr" ? "discours de victoire" : "election-night victory speech"}</small></div>
