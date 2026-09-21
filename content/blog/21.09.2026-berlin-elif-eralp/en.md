@@ -24,11 +24,17 @@ In Berlin’s 20 September 2026 election for the Abgeordnetenhaus, Die Linke cam
 
 > **In our city, love and justice have defeated hate. We showed this together today, and this signal is going out into the world.**
 
+As a politician from a migrant background, Eralp wanted to make history in Berlin and for now appears to have done so. Having taken Die Linke’s vote share to a record level in Berlin, whether she will take the city’s leadership depends on coalition negotiations in the coming weeks.
+
+Berlin is both a federal state and a city, so the officeholder is simultaneously head of the state and mayor of the city. This is why the office is formally called the **Governing Mayor**, unlike other mayors and state premiers. If the coalition talks favour Die Linke, Eralp would become the first woman and first person from a migrant background to hold the office.
+
 ## Who is Elif Eralp?
 
-According to Deutsche Welle’s profile, Eralp was born in Munich in 1981 to a socialist and trade-union family that sought asylum in Germany after Turkey’s 1980 military coup. She studied law and worked for many years in legal policy. Her Berlin campaign connected political representation for people with migration backgrounds with housing and social justice. [3]
+Elif Eralp was born in Munich in 1981. Her socialist and trade-unionist parents left Turkey and sought asylum in Germany after the 12 September 1980 coup; her mother, a vocational teacher, was eight months pregnant at the time. The family lived in one room while waiting for their asylum applications to be approved. They later moved to Dortmund, where her father worked as a doctor, and to Hamburg when Eralp was eight.
 
-Die Linke coming first is not the same as Eralp being elected Governing Mayor of Berlin. The office is not chosen directly by voters; it is elected by the newly formed state parliament. Eralp would need coalition support and a successful parliamentary vote.
+Eralp says her family continued its political activity in Germany and took her to many demonstrations. She describes their story and worldview as the first inspiration for her career and political path. Saying that she had fought injustice since she was able to think as the child of asylum-seeking parents, she says seeing families like hers treated differently encouraged her to study law. She decided at the age of twelve to become a human-rights lawyer and completed her law studies in Hamburg.
+
+Eralp moved to Berlin in 2010. She is married and has two children. She says they rent their home, like many Berliners, and that her children attend a normal school. In addition to Turkish and German, she speaks Spanish and English. [3]
 
 ## Why this result matters
 

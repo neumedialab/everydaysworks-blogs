@@ -24,11 +24,17 @@ Bei der Wahl zum Berliner Abgeordnetenhaus am 20. September 2026 liegt Die Linke
 
 > **In unserer Stadt haben Liebe und Gerechtigkeit über den Hass gesiegt. Das haben wir heute gemeinsam gezeigt. Dieses Signal geht in die Welt.**
 
+Als Politikerin mit Einwanderungsgeschichte wollte Eralp in Berlin Geschichte schreiben – vorerst scheint ihr das gelungen zu sein. Ob sie nach dem Rekordergebnis der Linken die Führung der Stadt übernehmen kann, hängt von den Koalitionsverhandlungen der kommenden Wochen ab.
+
+Berlin ist zugleich Bundesland und Stadt. Die Amtsinhaberin ist daher sowohl Regierungschefin des Landes als auch Bürgermeisterin der Stadt. Deshalb heißt das Amt – anders als bei anderen Bürgermeistern und Ministerpräsidenten – **Regierende Bürgermeisterin**. Sollten die Koalitionsverhandlungen zugunsten der Linken ausgehen, wäre Eralp die erste Frau und die erste Person mit Einwanderungsgeschichte in diesem Amt.
+
 ## Wer ist Elif Eralp?
 
-Nach dem Porträt der Deutschen Welle wurde Eralp 1981 in München als Tochter einer sozialistischen und gewerkschaftlich engagierten Familie geboren, die nach dem Militärputsch von 1980 aus der Türkei nach Deutschland floh. Sie studierte Jura und arbeitete lange im Bereich Rechtspolitik. Im Berliner Wahlkampf verband sie die politische Teilhabe von Menschen mit Migrationsgeschichte mit den Themen Wohnen und soziale Gerechtigkeit. [3]
+Elif Eralp wurde 1981 in München geboren. Ihre sozialistische und gewerkschaftlich engagierte Familie verließ die Türkei nach dem Militärputsch vom 12. September 1980 und suchte in Deutschland Asyl. Ihre Mutter, eine Berufsschullehrerin, war damals im achten Monat schwanger. Während des Asylverfahrens lebte die dreiköpfige Familie in einem einzigen Zimmer. Später zog sie nach Dortmund, wo ihr Vater als Arzt arbeitete, und nach Hamburg, als Eralp acht Jahre alt war.
 
-Dass Die Linke stärkste Kraft wird, bedeutet nicht automatisch, dass Eralp zur Regierenden Bürgermeisterin gewählt ist. Dieses Amt wird nicht direkt von den Berlinerinnen und Berlinern bestimmt, sondern vom neu gewählten Abgeordnetenhaus. Eralp braucht dafür Koalitionspartner und eine erfolgreiche Wahl im Parlament.
+Eralp berichtet, dass ihre Familie auch in Deutschland politisch aktiv blieb und sie zu vielen Demonstrationen mitnahm. Die Familiengeschichte und das politische Weltbild seien die erste Inspiration für ihren beruflichen und politischen Weg gewesen. Sie habe als Kind von Menschen, die Asyl suchten, schon früh gegen Ungerechtigkeit kämpfen wollen. Als sie bemerkte, dass Familien wie ihre in Deutschland unterschiedlich behandelt wurden, habe sie sich für ein Jurastudium entschieden. Mit zwölf Jahren beschloss sie, Menschenrechtsanwältin zu werden; ihr Jurastudium absolvierte sie in Hamburg.
+
+2010 zog Eralp nach Berlin. Sie ist verheiratet und Mutter von zwei Kindern. Wie viele Berlinerinnen und Berliner lebe ihre Familie zur Miete; ihre Kinder besuchten eine normale Schule. Neben Türkisch und Deutsch spricht sie Spanisch und Englisch. [3]
 
 ## Warum dieses Ergebnis wichtig ist
 

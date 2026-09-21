@@ -24,11 +24,17 @@ Berlin’de 20 Eylül 2026’da yapılan Abgeordnetenhaus seçiminde Die Linke, 
 
 > **Şehrimizde, sevgi ve adalet nefrete karşı kazandı. Bunu bugün hep birlikte gösterdik ve bu sinyal dünyaya yayılıyor.**
 
+Eralp, göçmen kökenli bir siyasetçi olarak Berlin’de bir ilke imza atmayı amaçlıyordu ve şimdilik bunu başarmış görünüyor. Partisinin oylarını Berlin’de rekor düzeyde artıran Eralp’in liderlik koltuğuna oturup oturmayacağı, önümüzdeki haftalarda yapılacak koalisyon pazarlıklarına bağlı.
+
+Başkent Berlin hem eyalet hem de şehir statüsünde olduğu için seçilen kişi hem eyalet başbakanı hem de kentin belediye başkanı olur. Bu nedenle seçilen kişi, diğer belediye başkanları ve eyalet başbakanlarından farklı olarak **Hükümet Eden Belediye Başkanı** olarak tanımlanır. Eralp, koalisyon pazarlıkları Sol Parti lehine sonuçlanırsa hem kadın hem de göçmen olarak bu göreve gelen ilk başkan olacak.
+
 ## Elif Eralp kimdir?
 
-DW’nin Türkçe biyografisine göre Eralp, 1981’de Münih’te doğdu; Türkiye’deki 12 Eylül 1980 darbesinin ardından Almanya’ya iltica eden sosyalist ve sendikacı bir ailenin kızı. Hukuk eğitimi aldı ve uzun süre hukuk politikaları alanında çalıştı. Berlin’deki siyasi çalışmaları, göçmen kökenli insanların temsili, barınma ve sosyal adalet başlıklarıyla birleşiyor. [3]
+Elif Eralp, 1981’de Almanya’nın Münih kentinde doğdu. Sosyalist ve sendikacı ailesi, 12 Eylül 1980 darbesinden sonra Türkiye’den ayrılarak Almanya’ya sığındı; annesi o sırada sekiz aylık hamile olan bir meslek öğretmeniydi. Üç kişilik aile, iltica başvurularının onaylanmasını beklerken tek bir odada yaşadı. Daha sonra babasının doktor olarak çalıştığı Dortmund’a, Eralp sekiz yaşındayken de Hamburg’a taşındılar.
 
-Die Linke’nin birinci çıkması ile Eralp’in Berlin’in Yönetici Belediye Başkanı seçilmesi aynı şey değil. Berlin’de bu makam doğrudan halk tarafından değil, yeni oluşan Eyalet Meclisi tarafından seçiliyor. Eralp’in göreve gelebilmesi için koalisyon desteği bulması ve meclis oylamasını kazanması gerekiyor.
+Eralp, ailesinin Almanya’da siyasi faaliyetlerini sürdürdüğünü ve kendisini pek çok gösteriye yanlarında götürdüklerini anlatıyor. Ailesinin hikâyesi ve dünya görüşü, onun kariyer ve siyaset yolculuğunun ilk ilham kaynağı olmuş. “Sığınmacı bir anne babanın çocuğu olarak düşünebildiğim zamandan bu yana adaletsizliğe karşı mücadele ettim” diyen Eralp, kendi ailesi gibi ailelerin Almanya’da farklı muamele gördüğünü fark etmenin kendisini hukuk okumaya teşvik ettiğini belirtiyor. Daha 12 yaşındayken insan hakları avukatı olmaya karar verdiğini söyleyen Eralp, hukuk eğitimini Hamburg’da tamamladı.
+
+2010 yılında Berlin’e taşınan Eralp, evli ve iki çocuk annesi. “Berlinlilerin çoğu gibi” kirada yaşadıklarını ve çocuklarının “normal” bir okula gittiğini ifade ediyor. Türkçe ve Almanca’nın yanı sıra İspanyolca ve İngilizce biliyor. [3]
 
 ## Bu sonuç neden önemli?
 

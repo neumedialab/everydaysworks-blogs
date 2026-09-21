@@ -24,11 +24,17 @@ Lors de l’élection de la Chambre des députés de Berlin, le 20 septembre 202
 
 > **Dans notre ville, l’amour et la justice ont vaincu la haine. Nous l’avons montré ensemble aujourd’hui, et ce signal se propage dans le monde.**
 
+En tant que femme politique issue de l’immigration, Eralp voulait marquer l’histoire à Berlin et semble, pour l’instant, y être parvenue. Après avoir porté le score de Die Linke à un niveau record dans la capitale, son accession à la tête de la ville dépendra des négociations de coalition des prochaines semaines.
+
+Berlin est à la fois un Land et une ville : la personne élue dirige donc le Land et la municipalité. C’est pourquoi la fonction est officiellement appelée **maire-gouverneure**, à la différence des autres maires et présidents de Land. Si les négociations de coalition aboutissent en faveur de Die Linke, Eralp deviendrait la première femme et la première personne issue de l’immigration à occuper cette fonction.
+
 ## Qui est Elif Eralp ?
 
-Selon le portrait publié par la Deutsche Welle, Eralp est née à Munich en 1981 dans une famille socialiste et syndicaliste ayant demandé l’asile en Allemagne après le coup d’État militaire de 1980 en Turquie. Elle a étudié le droit et travaillé pendant de nombreuses années dans le domaine des politiques juridiques. Sa campagne berlinoise associait la représentation politique des personnes issues de l’immigration aux questions du logement et de la justice sociale. [3]
+Elif Eralp est née à Munich en 1981. Sa famille, socialiste et engagée dans le mouvement syndical, a quitté la Turquie après le coup d’État du 12 septembre 1980 et a demandé l’asile en Allemagne. Sa mère, enseignante dans une école professionnelle, était alors enceinte de huit mois. En attendant la décision sur leur demande, la famille de trois personnes a vécu dans une seule pièce. Elle a ensuite déménagé à Dortmund, où son père travaillait comme médecin, puis à Hambourg lorsque Eralp avait huit ans.
 
-La victoire de Die Linke ne signifie pas automatiquement qu’Elif Eralp est élue maire-gouverneure de Berlin. Cette fonction n’est pas choisie directement par les électeurs : elle est élue par la nouvelle Chambre des députés. Eralp devra donc obtenir le soutien de partenaires de coalition et gagner le vote parlementaire.
+Eralp raconte que sa famille a poursuivi ses activités politiques en Allemagne et l’emmenait à de nombreuses manifestations. Leur histoire et leur vision du monde ont été sa première source d’inspiration. Elle explique avoir lutté contre l’injustice depuis qu’elle pouvait penser, en tant qu’enfant de parents demandeurs d’asile, et avoir été poussée vers le droit en constatant que les familles comme la sienne étaient traitées différemment. À douze ans, elle a décidé de devenir avocate des droits humains et a étudié le droit à Hambourg.
+
+Installée à Berlin en 2010, Eralp est mariée et mère de deux enfants. Elle dit vivre en location, comme beaucoup de Berlinois, et envoyer ses enfants dans une école ordinaire. Elle parle turc et allemand, ainsi qu’espagnol et anglais. [3]
 
 ## Pourquoi ce résultat est important
 
