@@ -62,7 +62,7 @@ body { background: var(--cream); }
 .hero-copy { max-width: 780px; }
 .eyebrow, .section-label { display: flex; align-items: center; gap: 10px; color: var(--coral); font-size: 10px; font-weight: 800; letter-spacing: .18em; }
 .eyebrow-line { width: 36px; height: 1px; background: var(--coral); display: inline-block; }
-.hero h1 { margin: 28px 0 22px; color: white; font-size: clamp(46px, 6.5vw, 84px); line-height: .97; letter-spacing: -.07em; font-weight: 800; }
+.hero h1 { margin: 28px 0 22px; color: white; font-family: 'Space Grotesk', 'DM Sans', sans-serif; font-size: clamp(46px, 6.5vw, 84px); line-height: .98; letter-spacing: -.06em; font-weight: 700; overflow-wrap: normal; word-break: normal; hyphens: none; }
 .hero h1 em { color: var(--coral); font-family: Georgia, serif; font-weight: 400; letter-spacing: -.08em; }
 .hero-dek { max-width: 585px; color: #c1d0cd; font-size: 18px; line-height: 1.55; }
 .hero-actions { display: flex; align-items: center; gap: 12px; margin-top: 36px; }
@@ -87,7 +87,7 @@ body { background: var(--cream); }
 .signal-item b { color: var(--ink); font-size: 13px; }
 .signal-item p { color: #687875; margin: 7px 0 0; font-size: 12px; line-height: 1.45; }
 .content-layout { display: grid; grid-template-columns: minmax(0, 770px) 310px; gap: 90px; padding-top: 98px; padding-bottom: 110px; }
-.article-column h2 { margin: 18px 0 24px; max-width: 750px; color: var(--ink); font-size: clamp(30px, 4vw, 50px); letter-spacing: -.055em; line-height: 1.03; }
+.article-column h2 { margin: 18px 0 24px; max-width: 750px; color: var(--ink); font-family: 'Space Grotesk', 'DM Sans', sans-serif; font-size: clamp(30px, 4vw, 50px); letter-spacing: -.045em; line-height: 1.08; font-weight: 700; overflow-wrap: normal; word-break: normal; hyphens: none; }
 .article-column p { color: #4f605e; font-size: 16px; line-height: 1.75; }
 .article-column .lead { color: #2d484c; font-size: 20px; line-height: 1.55; }
 .article-column strong { color: var(--ink); }
@@ -127,6 +127,9 @@ blockquote cite { display: block; color: #6f817c; font-family: 'DM Sans', sans-s
 .quote-panel p { position: relative; margin: 14px 0 20px 38px; max-width: 640px; color: #ecf2ef; font: 25px/1.35 Georgia, serif; }
 .quote-panel small { margin-left: 38px; color: #9eb7b1; font-size: 10px; letter-spacing: .14em; text-transform: uppercase; }
 .victory-quote { margin: 30px 0 28px; }
+.victory-intro { margin: 28px 0 30px; padding: 22px 25px 20px; border-left: 4px solid var(--coral); background: #f5e8e1; }
+.victory-intro p { margin: 0; color: var(--ink); font-family: 'Space Grotesk', sans-serif; font-size: clamp(21px, 2.5vw, 30px); line-height: 1.18; font-weight: 700; letter-spacing: -.035em; }
+.victory-intro small { display: block; margin-top: 13px; color: #9b6955; font-size: 9px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
 .publication-figure { margin: 0 0 34px; }
 .publication-figure img { display: block; width: 100%; max-height: 520px; object-fit: cover; }
 .publication-figure figcaption { padding: 10px 0 0; color: #7a8d86; font-size: 10px; line-height: 1.5; }
@@ -135,6 +138,11 @@ blockquote cite { display: block; color: #6f817c; font-family: 'DM Sans', sans-s
 .embedded-video-head { display: flex; align-items: center; justify-content: space-between; gap: 15px; margin-bottom: 12px; color: #b8d0c9; font-size: 9px; font-weight: 900; letter-spacing: .14em; }
 .embedded-video-head a { display: inline-flex; align-items: center; gap: 5px; color: var(--coral); letter-spacing: 0; text-transform: none; }
 .embedded-video iframe { display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; }
+.speech-transcript { margin: 0 0 44px; padding: 18px 20px; background: #f0f4f1; border: 1px solid #c9d8d2; }
+.speech-transcript summary { color: var(--ink); cursor: pointer; font-family: 'Space Grotesk', sans-serif; font-size: 15px; font-weight: 700; }
+.speech-transcript p { margin: 18px 0 0; font-size: 14px; line-height: 1.65; }
+.speech-transcript .speech-german { color: #355b60; }
+.speech-transcript small { display: block; margin-top: 16px; color: #7a8d86; font-size: 10px; }
 .rights-grid { display: grid; grid-template-columns: 1fr 235px; gap: 38px; margin-top: 18px; }
 .rights-grid h2 { font-size: 34px; }
 .rights-grid p { font-size: 14px; }
