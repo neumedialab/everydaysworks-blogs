@@ -249,7 +249,7 @@ export default function Home() {
               <div className="law-points"><div><strong>Die Linke</strong><span>{berlin.party}</span></div><div><strong>AfD</strong><span>{berlin.afd}</span></div><div><strong>{language === "tr" ? "Henüz kesin değil" : language === "de" ? "Noch offen" : language === "fr" ? "Pas encore définitif" : "Not yet decided"}</strong><span>{berlin.uncertain}</span></div></div>
               <SourceLink href="https://www.wahlen-berlin.de/wahlen/BE2026/Afspraes/AGH/ergebnisse.html">{berlin.official}</SourceLink>
             </div>
-            <ShareBar title={berlin.share} shareUrl={`https://everydaysworks-blog.pages.dev/blog/21.09.2026-berlin-elif-eralp/?lang=${language}`} />
+            <ShareBar title={berlin.share} shareUrl={`https://everydaysworks-blog.pages.dev/blog/21.09.2026-berlin-elif-eralp/${language}/`} />
             <div className="source-grid">
               <a className="source-card" href="https://www.dw.com/tr/berlinde-bir-ilke-do%C4%9Fru-sol-partili-elif-eralp-kimdir/a-79331267" target="_blank" rel="noreferrer"><span className="source-type">HABER</span><h3>DW Türkçe</h3><p>Eralp’in biyografisi, konut politikası ve koalisyon belirsizliği.</p><ArrowUpRight size={17} /></a>
               <a className="source-card" href="https://www.reuters.com/world/far-left-party-wins-berlin-election-pledging-nationalise-housing-2026-09-20/" target="_blank" rel="noreferrer"><span className="source-type">ULUSLARARASI</span><h3>Reuters</h3><p>Seçim oranları, konutların kamusallaştırılması ve koalisyon engelleri.</p><ArrowUpRight size={17} /></a>
